@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+
+    grid-template-areas: 
+        "header header header"
+        "content content sidebar1"
+        "content content sidebar2"
+        "content content sidebar2"
+        "footer footer footer";
+
+        height: 1000px;
+}
+
+
+#header {
+    background-color: greenyellow;
+    grid-area: header;
+    text-align: center;
+
+}
+
+#content {
+    background-color: chocolate;
+    grid-area: content;
+    text-align: center;
+}
+
+#sidebar1 {
+    background-color: darkmagenta;
+    grid-area: sidebar1;
+    text-align: center;
+}
+
+#sidebar2 {
+    background-color: gold;
+    grid-area: sidebar2;
+    text-align: center;
+}
+
+#footer {
+    background-color: royalblue;
+    grid-area: footer;
+    text-align: center;
+}
